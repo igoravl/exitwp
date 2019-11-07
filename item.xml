@@ -1,0 +1,60 @@
+<item>
+    <title>
+				Como obter a iteração atual de vários times		</title>
+    <link>http://www.tshooter.com.br/2017/04/13/como-obter-iteracao-atual-de-varios-times/</link>
+    <pubDate>Thu, 13 Apr 2017 20:12:35 +0000</pubDate>
+    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[igoravl]]></dc:creator>
+    <guid isPermaLink="false">https://www.tshooter.com.br/?p=30021</guid>
+    <description></description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>Recentemente surgiu a seguinte pergunta no canal de ALM do <a href="http://brasildotnet.slack.com">Slack da Brasil.NET</a>:</p>
+...Igor</p>]]></content:encoded>
+    <excerpt:encoded xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"><![CDATA[]]></excerpt:encoded>
+    <wp:post_id xmlns:wp="http://wordpress.org/export/1.2/">30021</wp:post_id>
+    <wp:post_date xmlns:wp="http://wordpress.org/export/1.2/"><![CDATA[2017-04-13 14:12:35]]></wp:post_date>
+    <wp:post_date_gmt xmlns:wp="http://wordpress.org/export/1.2/"><![CDATA[2017-04-13 20:12:35]]></wp:post_date_gmt>
+    <wp:comment_status xmlns:wp="http://wordpress.org/export/1.2/"><![CDATA[open]]></wp:comment_status>
+    <wp:ping_status xmlns:wp="http://wordpress.org/export/1.2/"><![CDATA[closed]]></wp:ping_status>
+    <wp:post_name xmlns:wp="http://wordpress.org/export/1.2/"><![CDATA[como-obter-iteracao-atual-de-varios-times]]></wp:post_name>
+    <wp:status xmlns:wp="http://wordpress.org/export/1.2/"><![CDATA[publish]]></wp:status>
+    <wp:post_parent xmlns:wp="http://wordpress.org/export/1.2/">0</wp:post_parent>
+    <wp:menu_order xmlns:wp="http://wordpress.org/export/1.2/">0</wp:menu_order>
+    <wp:post_type xmlns:wp="http://wordpress.org/export/1.2/"><![CDATA[post]]></wp:post_type>
+    <wp:post_password xmlns:wp="http://wordpress.org/export/1.2/"><![CDATA[]]></wp:post_password>
+    <wp:is_sticky xmlns:wp="http://wordpress.org/export/1.2/">0</wp:is_sticky>
+    <category domain="category" nicename="alm"><![CDATA[ALM]]></category>
+    <category domain="post_translations" nicename="fa6ad23f-e7af-47e5-b80a-b3e66c26377c"><![CDATA[fa6ad23f-e7af-47e5-b80a-b3e66c26377c]]></category>
+    <category domain="language" nicename="pt"><![CDATA[Português]]></category>
+    <category domain="post_tag" nicename="powershell"><![CDATA[PowerShell]]></category>
+    <category domain="post_tag" nicename="tfs"><![CDATA[TFS]]></category>
+    <category domain="post_tag" nicename="tfscmdlets"><![CDATA[TfsCmdlets]]></category>
+    <category domain="post_tag" nicename="vsts"><![CDATA[VSTS]]></category>
+    <category domain="post_tag" nicename="work-item-tracking"><![CDATA[Work Item Tracking]]></category>
+    <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+        <wp:meta_key><![CDATA[_jetpack_related_posts_cache]]></wp:meta_key>
+        <wp:meta_value><![CDATA[a:1:{s:32:"b14dd0ed25111bf38ec907ce6caca3ac";a:2:{s:7:"expires";i:1502986273;s:7:"payload";a:0:{}}}]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+        <wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+        <wp:meta_value><![CDATA[30061]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+        <wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+        <wp:meta_value><![CDATA[1]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+        <wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+        <wp:meta_value><![CDATA[60]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+        <wp:meta_key><![CDATA[_yoast_wpseo_primary_category]]></wp:meta_key>
+        <wp:meta_value><![CDATA[]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+        <wp:meta_key><![CDATA[_is_empty_after_transformation]]></wp:meta_key>
+        <wp:meta_value><![CDATA[no]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta xmlns:wp="http://wordpress.org/export/1.2/">
+        <wp:meta_key><![CDATA[_has_warnings_after_transformation]]></wp:meta_key>
+        <wp:meta_value><![CDATA[yes]]></wp:meta_value>
+    </wp:postmeta>
+</item>
