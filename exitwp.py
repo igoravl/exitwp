@@ -37,6 +37,7 @@ taxonomy_entry_filter = config['taxonomies']['entry_filter']
 taxonomy_name_mapping = config['taxonomies']['name_mapping']
 item_type_filter = set(config['item_type_filter'])
 item_field_filter = config['item_field_filter']
+item_taxonomy_filter = config['item_taxonomy_filter']
 date_fmt = config['date_format']
 body_replace = config['body_replace']
 
@@ -181,6 +182,13 @@ def parse_wp_xml(file):
                             featured_image = blogAttachments[thumbId]
                             if featured_image not in img_srcs:
                                 img_srcs.append(featured_image)
+                    if(featured_image == ''):
+                        match = re.match('^(<p.*?>)+?(<img .+?/?>)|^(<img .+?/?>)', body)
+                        if(match):
+                            groups = match.groups()
+                            img = groups[1] if groups[1] else groups[2]  
+                            featured_image = img_srcs[0]
+                            body = body.replace(img, '')
                 except Exception as ex:
                     print('error finding featured image')
                     print(ex)
@@ -343,6 +351,11 @@ def write_jekyll(data, target_format):
                 skip_item = True
                 break
 
+        for taxonomy, value in item_taxonomy_filter.iteritems():
+            if(i['taxanomies'].has_key(taxonomy) and i['taxanomies'][taxonomy][0] == value):
+                skip_item = True
+                break
+
         if(skip_item):
             continue
 
@@ -368,7 +381,7 @@ def write_jekyll(data, target_format):
         if i['status'] != u'publish':
             yaml_header['published'] = False
         if i['image']:
-            yaml_header['image'] = yaml_header['permalink'] + i['image'].split('/')[-1]
+            yaml_header['image'] = i['image'].split('/')[-1]
 
         if i['type'] == 'post':
             i['uid'] = get_item_uid(i, date_prefix=True)
